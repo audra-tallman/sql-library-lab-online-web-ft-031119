@@ -8,7 +8,7 @@ INSERT INTO books (id, title, year, series_id) VALUES (1, "Philosophers Stone", 
 
 INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (1, "Harry", "Patronus", "wizard", 1, 1), (2, "Ron", "I love my rat scampers", "wizard", 1, 1), (3, "Hermoine", "I know everything", "muggle", 1, 1), (4, "Hedwig", "Hoot hoot", "owl", 1, 1);
 
-INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (5, "Frodo", "I must destroy the ring", "hobbit", 2, 2), (6, "Character Two", "motto two", "human", 2, 2), (7, "Character Three", "motto three", "cylon", 2, 2), (8, "Character Four", "motto four", "cylon", 2, 2);
+INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (5, "Frodo", "I must destroy the ring", "hobbit", 2, 2), (6, "Aragorn", "Protect Frodo", "human", 2, 2), (7, "Legolas", "I'm a stealthy elf", "cylon", 2, 2), (8, "Gimli", "I hate elves", "dwarf", 2, 2);
 
 INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 1), (2, 1, 2), (3, 2, 2), (4, 3, 2), (5, 1, 3), (6, 2, 3), (7, 3, 3), (8, 1, 4);
 
